@@ -76,5 +76,7 @@
             @yield('content')
         </main>
     </div>
+    @include('partials.login')
+    @include('partials.register')
 </body>
 </html>
